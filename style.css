@@ -1,0 +1,230 @@
+
+/*This style.css file is owned by Nick Kamienski and was written in
+order to complete requirements for the Mid-Level CSS Badge for ISAT 348*/
+
+/*Exact HEX keys were generated on this website:
+http://html-color-codes.info/colors-from-image/ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+/*this sets the background color of the full html page body*/
+
+body
+	{
+    background-color: #FFFFFF
+	}
+
+/*this styling applies to all main white boxes displayed
+on the foreground with content on them*/
+
+.card
+	{
+    background-color: white;
+    color: #787878;
+    font-family: 'Open Sans', Sans-Serif;
+    font-size: 15px;
+    text-align: justify;
+    border-radius: 3px;
+    margin: .75em;
+    padding: 1em;
+    box-shadow: 2px #000000;
+    position: relative;
+    -moz-box-shadow: 2px #000000;
+    -webkit-box-shadow: 2px;
+	}
+
+/*Boris' name styling*/
+
+.card h1
+	{
+    font-family: 'Montserrat', cursive;
+    font-size: 24px;
+    color: #DE5656;
+    margin: 0.5em;
+	}
+
+/*Boris' title below name styling*/
+
+.card h2 
+	{
+	font-family: 'Montserrat', cursive;
+    font-size: 19px;
+	}
+
+.card td
+	{
+	}
+
+/*method to centrally align text*/
+
+.text-center
+	{
+	text-align: center;
+	}
+
+/*movie description text styling*/
+
+.text-center p
+	{
+	text-align: justify;
+    padding: 0;
+	}
+
+/*Below is the button with "more infos" on it*/
+
+.btn-danger
+	{
+    color: white;
+    background-color: #DE5656;
+    padding: .75em;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 5em;
+    height: 10em;
+    position: static;
+	}
+
+/*this applies to the placement of the social media icon links*/
+
+i
+	{
+    height: 1.5em;
+	}
+
+/*this sets the margin of all of the images presented on the page*/
+
+img
+	{
+	margin: 0em;
+	}
+
+/*creates space between top two boxes (cards) and the bottom box
+by disallowing floating objects on either the left or right*/
+
+.clear
+	{
+    clear: both;
+	}
+
+/*this applies the inline styling to the trios of 3 similar-sized images*/
+
+.list-inline
+	{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+	}
+
+/*this adds a margin to the trio of 3 similar-sized images in the
+same card at the bottom*/
+
+.list-inline li
+	{
+    display: inline-block;
+    margin: 12px;
+	}
+
+/*this adds the color profile and overall text characteristics of the
+trios of similar-sized images*/
+
+a
+	{	
+    color: #cccccc;
+    text-decoration: none;
+	font: 'Montserrat', cursive;
+    font-size: 16px;
+    }
+
+/*this sets the placement and alignment of the trio of 3 similar-sized
+images in the same card at the bottom*/
+
+h2 ul
+	{
+    text-align: right;
+    position: static;
+    position: bottom;
+	}
+
+/*this essentially wraps all of the cards inside a grey box*/
+
+#wrapper
+	{
+    background-color: #c0c0c0; 
+    margin: auto;
+    padding: 1%;
+	}
+
+/*this defines the spacing of the card with Boris' information*/
+ 
+
+#left-container
+	{
+    float: left;
+    line-height: 1.5em;
+    width: 36%;
+    clear: left;
+	}
+
+/*this defines the spacing of the "My favorite movies" card*/
+
+#right-container
+	{
+    width: 58.5%;
+    height: 30%;
+    margin-bottom: 0px;
+	float: right;
+    }
+
+/*this sets the characteristics of the picture used for Boris' profile*/
+
+#img-profile
+	{
+    border-radius: 100%;
+    border: 3px solid #cccccc;
+    height: 6em;
+	}
+
+/*this sets the characteristics of the pictures that are movie covers*/
+
+#movies img
+	{
+    height: 7em;
+    margin: .5em;
+    margin-right: .8em
+	}
+
+/*this sets the ID of the 3 icons in the bottom right of the bottom card*/
+
+#share
+	{
+    display: inline-block;
+    list-style: none;
+	}
+
+/*this sets the overall placement and box characteristics of the bottom card*/
+
+#footer
+	{
+    height: 10em;
+    width: 95%;
+    padding: 1em;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 120px;
+    visibility: auto;
+    clear: both;
+	}
+
+/*this sets the placement and alignment ID of the trio of the 3
+similar-sized images in the same card at the bottom*/
+
+#footer ul
+	{
+    float: right;
+    padding: 10px;
+    list-style-type: none;
+	}
